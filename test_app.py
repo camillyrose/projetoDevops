@@ -20,7 +20,7 @@ class TestProjetoDevops(unittest.TestCase):
         self.assertEqual(saudacao("Camilly"), "Olá, Camilly!")
 
     def test_inverter(self):
-        self.assertEqual(inverter_texto("DevOps"), "spOvDe")
+        self.assertEqual(inverter_texto("DevOps"), "spOveD")
 
     def test_texto_diferente(self):
         self.assertNotEqual(inverter_texto("Docker"), "Docker")
